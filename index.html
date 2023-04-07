@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Address Book Manager</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+	<div class="container">
+		<h1>Address Book Manager</h1>
+		<div class="tab"><form>
+			<span><label for="name">Name:</label>
+			<input type="text" id="name" name="name" required></span>
+			<span><label for="mobile">Mobile:</label>
+			<input type="tel" id="mobile" name="mobile" required> </span>
+			<span><button type="button" id="add-btn">Add Contact</button></span>
+		</form>
+		<br><br><br> 
+		<div class="search-box">
+			<input type="text" placeholder="&#xF002; Search" style="font-family:Arial, FontAwesome" id="search" name="search" />
+		</div>
+		<table id="contacts">
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Mobile</th>
+					<th>Action</th>
+				</tr>
+			</thead>
+			<tbody></tbody>
+		</table></div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
