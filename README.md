@@ -1,5 +1,7 @@
 <h1>AddressBook Manager</h1>
-<img src='index.png'>
+<a href="https://github.com/Farzzn/AddressBookManger/blob/main/index.png">
+  <img src="https://github.com/Farzzn/AddressBookManger/raw/main/index.png" alt="screenshot of the addressbook manager project">
+</a>
 
 <p>This is a simple phonebook manager project that allows users to store, edit, and delete names and phone numbers using HTML, JavaScript, and CSS. The project utilizes local storage to save the contact details.</p>
 
